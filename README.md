@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie Explorer
+
+Movie Explorer is a movie browsing application built with **Next.js**. It allows users to search for popular, upcoming, and trending movies. The app uses **The Movie Database (TMDb) API** to fetch movie data, and it features a responsive design powered by **Tailwind CSS**.
+
+You can access the live app here: [Movie Explorer](https://movie-explorer-pk9q-9cxnya1h7-uyanikislams-projects.vercel.app)
+
+## Project Information
+
+| Key              | Details                                                                          |
+| ---------------- | -------------------------------------------------------------------------------- |
+| **Project Name** | Movie Explorer                                                                   |
+| **Technologies** | Next.js, React, Tailwind CSS, React Icons, Next Themes, TMDb API                 |
+| **Live Demo**    | [Movie Explorer](https://movie-explorer-pk9q-9cxnya1h7-uyanikislams-projects.vercel.app) |
+| **Screenshot**   | ![Movie Explorer Screenshot](./public/screenshots/screenshot.png)                |
+| **License**      | MIT License                                                                      |
+
+## Features
+
+- Browse and search for movies by genre (Popular, Upcoming, Trending).
+- View movie details including posters and background images.
+- Light/Dark mode toggle.
+- Responsive design for both mobile and desktop views.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for fast UI design.
+- **React Icons**: For beautiful and consistent icons.
+- **Next Themes**: For handling dark/light mode theming.
+- **TMDb API**: For movie data and details.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/uyanikislam/movie-explorer.git
+   cd movie
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
 
-## Learn More
+    ````bash
+    npm install
 
-To learn more about Next.js, take a look at the following resources:
+3. Run the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Open your browser and navigate to http://localhost:3000 to see the app in action.
 
-## Deploy on Vercel
+## Project Structure
+- app/: Next.js app directory containing pages and layouts.
+- components/: React components used throughout the application.
+- lib/: Utility functions and shared code.
+- public/: Static assets (such as images, including screenshots).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Available Scripts
+In the project directory, you can run:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- npm run dev: Starts the development server.
+- npm run build: Builds the app for production.
+- npm start: Runs the app in production mode.
+- npm run lint: Lints the codebase using ESLint.
+
+## Deployment
+This project is deployed on Vercel. 
